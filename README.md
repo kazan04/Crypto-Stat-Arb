@@ -51,4 +51,4 @@ Market crashes are sometimes **overreactions driven by leverage**. This strategy
 ---
 
 ## Contact
-Have feedback or want to collaborate?  
+Have feedback or want to collaborate? Contact kazanitish@gmail.com
