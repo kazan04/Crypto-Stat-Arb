@@ -24,7 +24,7 @@ This project implements a statistical arbitrage strategy that exploits **forced 
 
 ---
 
-## 📈 Backtest Results (Sample time period: 2023-01-01 to 2024-01-31)
+## Backtest Results (Sample time period: 2023-01-01 to 2024-01-31)
 
 - **Total trades**: 98
 - **Total return**: 60.4%
