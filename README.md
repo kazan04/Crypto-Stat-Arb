@@ -27,10 +27,10 @@ This project implements a statistical arbitrage strategy that exploits **forced 
 ## Backtest Results (Sample time period: 2023-01-01 to 2024-01-31)
 
 - **Total trades**: 98
-- **Total return**: 60.4%
-- **Mean return per trade**: ~0.62%  
-- **Max Drawdown**: -18.67%  
-- **Sharpe Ratio**: 2.11
+- **Total return**: 50.71%
+- **Mean return per trade**: ~0.52%  
+- **Max Drawdown**: -20.45%  
+- **Sharpe Ratio**: 1.81
   
 - **Annualized Alpha**: 0.0049
 ---
@@ -39,9 +39,9 @@ This project implements a statistical arbitrage strategy that exploits **forced 
 
 | Time Period        | Market Regime     | Sharpe | Avg Return | Trades | Alpha (Annualized)             |
 |--------------------|-------------------|--------|------------|--------|--------------------------------|
-| Mar–Apr 2020       | Bear (COVID)      | 60.72  | 2.88%      | 30     | 0.0764                         |
-| May–Dec 2020       | Bullish Recovery  | 2.44   | 1.29%      | 47     | 0.0057                         |
-| Jan–Dec 2021       | Bull              | 2.25   | 1.64%      | 148    | 0.0223                         |
+| Mar–Apr 2020       | Bear (COVID)      | 5.927  | 2.18%      | 30     | 0.0764                         |
+| May–Dec 2020       | Bullish Recovery  | 3.846  | 1.038%     | 47     | 0.0057                         |
+| Jan–Dec 2021       | Bull              | 2.90   | 0.909%     | 148    | 0.0223                         |
 
 
 ## Libraries Used
