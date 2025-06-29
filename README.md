@@ -1,7 +1,7 @@
 # Crypto-Liquidation-Cascades
 Strategy to capitalize on liquidation cascades.
 ## Strategy Overview
-This project implements a statistical arbitrage strategy that exploits **forced selling events** in the crypto markets — known as **liquidation cascades**. These occur when rapid price drops trigger leveraged traders' stop-outs, creating temporary mispricings that often revert.
+This project implements a statistical arbitrage strategy that exploits forced selling events in the crypto markets — known as liquidation cascades. These occur when rapid price drops trigger leveraged traders' stop-outs, creating temporary mispricings that often revert.
 
 > **Core Idea**: Identify liquidation-driven crashes across multiple assets, enter during panic, and profit from the mean reversion.
 
@@ -57,7 +57,7 @@ This project implements a statistical arbitrage strategy that exploits **forced 
 ---
 
 ## Key Takeaway
-Market crashes are sometimes **overreactions driven by leverage**. This strategy looks to profit from those overreactions causing temporary artifical crashes.
+Market crashes are sometimes overreactions driven by leverage. This strategy looks to profit from those overreactions causing temporary artifical crashes.
 
 ---
 
