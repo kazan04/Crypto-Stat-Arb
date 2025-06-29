@@ -31,7 +31,18 @@ This project implements a statistical arbitrage strategy that exploits **forced 
 - **Mean return per trade**: ~0.62%  
 - **Max Drawdown**: -18.67%  
 - **Sharpe Ratio**: 2.11
+  
+- **Annualized Alpha**: 0.0049
 ---
+
+## Further Backtest Result Examples
+
+| Time Period        | Market Regime     | Sharpe | Avg Return | Trades | Alpha (Annualized)             |
+|--------------------|-------------------|--------|------------|--------|--------------------------------|
+| Mar–Apr 2020       | Bear (COVID)      | 60.72  | 2.88%      | 30     | 0.0764                         |
+| May–Dec 2020       | Bullish Recovery  | 2.44   | 1.29%      | 47     | 0.0057                         |
+| Jan–Dec 2021       | Bull              | 2.25   | 1.64%      | 148    | 0.0223                         |
+
 
 ## Libraries Used
 - `pandas`, `numpy`, `matplotlib`
