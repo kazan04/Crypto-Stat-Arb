@@ -10,8 +10,10 @@ This project implements a statistical arbitrage strategy that exploits forced se
 ## Methodology
 
 ### 1. **Event Detection**
-- Multi-timeframe price drops (1h and 2h)
-- Volume spikes (top 5% percentile)
+- Multi-timeframe price drops:
+    5% drop in 1 hour OR 8% extreme drop in 1 hour
+    Cascade pattern: 8% drop over 2 hours with <3% drop in most recent hour
+- Volume spikes (top 5% percentile for strong/extreme drops; top 10% for cascades)
 - Cross-asset correlation: ≥ 3 assets crashing simultaneously
 
 ### 2. **Trade Entry**
@@ -19,8 +21,8 @@ This project implements a statistical arbitrage strategy that exploits forced se
 - Entry at close of crash candle (simulated with shift)
 
 ### 3. **Trade Exit**
-- Simple hold for 1–2 hours post entry (forward return logic)
-- No stop-loss; profit is driven by mean-reverting bounce
+- If 1-hour forward return > 2%: Hold for 1 hour to capture quick gains
+- Otherwise: Hold for 2 hours to allow for longer-term momentum
 
 ---
 
@@ -35,7 +37,7 @@ This project implements a statistical arbitrage strategy that exploits forced se
 - **Annualized Alpha**: 0.0049
 ---
 
-## Further Backtest Result Examples
+## Further Backtest Result Examples (can edit st and et variables in code to test)
 
 | Time Period        | Market Regime     | Sharpe | Avg Return | Trades | Alpha (Annualized)             |
 |--------------------|-------------------|--------|------------|--------|--------------------------------|
